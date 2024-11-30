@@ -22,7 +22,7 @@ body{
 .one{
     grid-area:one;
     width: 300px;
-    background-image: url("/images/image-product-desktop.jpg" );
+    background-image: url("images/image-product-desktop.jpg" );
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px 0px 0px 10px;
@@ -150,7 +150,7 @@ body{
 .one{
     width: 325px;
     height: 250px;
-    background-image: url("/images/image-product-mobile.jpg" );
+    background-image: url("images/image-product-mobile.jpg" );
     border-radius: 10px 10px 0px 0px;
     position: fixed;
     top: 30px;
