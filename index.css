@@ -1,0 +1,218 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    max-width: 2160px;
+    height: 750px;
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    display: grid;
+    width: 600px;
+    height: 450px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "one two";
+}
+
+.one{
+    grid-area:one;
+    width: 300px;
+    background-image: url("/images/image-product-desktop.jpg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px;
+}
+.two{
+    grid-area:two;
+    width: 310px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    position: relative;
+    left: -10;
+
+}
+.textbox{
+    position: relative;
+    width: 240px;
+    top: 10px;
+    left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.txt1{
+    font-family:"Montserrat";
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    font-size: 12px;
+}
+.txt2{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 28px;
+     position: relative;
+     top: 15px;
+     color: hsl(212, 21%, 14%);
+}
+.txt3{
+    width: 300px;
+    font-family:"Montserrat";
+    font-optical-sizing: auto;
+    font-style: "normal";
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+    line-height: 1.8; 
+    color:  hsl(228, 12%, 48%);    
+}
+.txt4{
+    font-family:"Fraunces";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    position: relative;
+    color:  hsl(158, 36%, 37%);
+    position: relative;
+    top:70px;
+}
+.txt5{
+    font-family:"Montserrat";
+    font-optical-sizing: auto;
+    text-decoration: line-through;
+    font-size: 12px;
+    position: relative;
+    top: 65px;
+    left: 15px;
+}
+.txt6{
+    position: relative ;
+    bottom: 3px;
+    left: 2px;   
+}
+.btn{
+    width: 75%;
+    height: 45px;
+    font-family:"Montserrat";
+    font-optical-sizing: auto;
+    font-style: "normal";
+    font-weight: 700;
+    text-decoration: none;
+    border: 0cap;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    position: relative;
+    top: 100px;
+    left: 36px;
+}
+.attribution { 
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    z-index: 7;
+    font-size: 15px;
+ }
+
+
+ a{
+    text-decoration: none;
+ }
+ .attribution a { color: hsla(129, 59%, 19%, 0.5); }
+
+@media screen and (min-width:300px) and (max-width:700px){
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        background-color: hsl(30, 38%, 92%);
+    }
+    .main{
+        width: 325px;
+        height: 650px;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto;
+        grid-template-areas: "one" "two";
+        position: fixed;
+    }
+ 
+.one{
+    width: 325px;
+    height: 250px;
+    background-image: url("/images/image-product-mobile.jpg" );
+    border-radius: 10px 10px 0px 0px;
+    position: fixed;
+    top: 30px;
+   
+}
+.two{
+    width: 325px;
+    height: 365px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    top:85px;
+}
+.textbox{
+    width: 272px;
+    position: relative;
+    left: 25px;  
+}
+.txt1{
+    position: relative;
+    top: -10px;
+    font-size: 12px;
+    letter-spacing: 5px;
+
+}
+.txt2{
+    position: relative;
+    top:-2px;
+    font-size: 30px;
+    width: 300px;
+    z-index: 1;
+}
+.txt3{
+  font-size: 13px;
+  position: relative;
+  top: 10px;
+
+}
+.txt4{
+   position: relative;
+   top: 25px;
+    
+}
+
+.txt5{
+    position: relative;
+    top: 20px;
+     
+ }
+ .btn{
+    position: relative;
+    top: 40px;
+    left: 25px;
+    width: 85%;
+ }
+ .art{
+    font-size: 10px;
+ }
+
+ .attribution{
+    position: fixed;
+    bottom: 1px;
+ }
+
+}
