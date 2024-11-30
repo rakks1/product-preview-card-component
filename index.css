@@ -164,8 +164,8 @@ body{
     height: 365px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    position: relative;
-    top:85px;
+    position: fixed;
+    bottom: 45px;
 }
 .textbox{
     width: 272px;
