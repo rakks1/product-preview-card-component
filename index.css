@@ -25,6 +25,7 @@ body{
 .one{
     grid-area:one;
     width: 300px;
+    background-image: url("https://github.com/rakks1/product-preview-card-component-main/blob/main/images/image-product-desktop.jpg?raw=true");
     background-image: url("./images/image-product-desktop.jpg" );
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,6 +42,7 @@ body{
 }
 .textbox{
     position: relative;
+    width: 240px;
     width: 220px;
     top: 10px;
     left: 35px;
@@ -85,6 +87,7 @@ body{
     position: relative;
     color:  hsl(158, 36%, 37%);
     position: relative;
+    top:70px;
     top:60px;
 }
 .txt5{
@@ -93,6 +96,7 @@ body{
     text-decoration: line-through;
     font-size: 12px;
     position: relative;
+    top: 65px;
     top: 60px;
     left: 15px;
 }
@@ -114,6 +118,7 @@ body{
     background-color: hsl(158, 36%, 37%);
     color:hsl(0, 0%, 100%);
     position: relative;
+    top: 100px;
     top: 75px;
     left: 36px;
 }
@@ -150,22 +155,23 @@ body{
         position: relative;
         top: 40px ;
     }
- 
+
 .one{
     width: 325px;
     height: 250px;
+    background-image: url("https://raw.githubusercontent.com/rakks1/product-preview-card-component/refs/heads/main/images/image-product-mobile.jpg");
     background-image: url("./images/image-product-mobile.jpg" );
     border-radius: 10px 10px 0px 0px;
     position: fixed;
-  
+
 }
 .two{
     width: 325px;
     height: 365px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    position: fixed;
-    bottom: 60px;
+    position: relative;
+    top:85px;
 }
 .textbox{
     width: 272px;
@@ -195,13 +201,13 @@ body{
 .txt4{
    position: relative;
    top: 25px;
-    
+
 }
 
 .txt5{
     position: relative;
     top: 20px;
-     
+
  }
  .btn{
     position: relative;
