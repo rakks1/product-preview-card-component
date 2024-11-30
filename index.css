@@ -22,7 +22,7 @@ body{
 .one{
     grid-area:one;
     width: 300px;
-    background-image: url("images/image-product-desktop.jpg");
+    background-image: url("https://github.com/rakks1/product-preview-card-component-main/blob/main/images/image-product-desktop.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px 0px 0px 10px;
