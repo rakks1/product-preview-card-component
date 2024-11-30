@@ -25,7 +25,6 @@ body{
 .one{
     grid-area:one;
     width: 300px;
-    background-image: url("https://github.com/rakks1/product-preview-card-component-main/blob/main/images/image-product-desktop.jpg?raw=true");
     background-image: url("./images/image-product-desktop.jpg" );
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,10 +158,10 @@ body{
 .one{
     width: 325px;
     height: 250px;
-    background-image: url("https://raw.githubusercontent.com/rakks1/product-preview-card-component/refs/heads/main/images/image-product-mobile.jpg");
     background-image: url("./images/image-product-mobile.jpg" );
     border-radius: 10px 10px 0px 0px;
-    position: fixed;
+    top: 100px;
+ 
 
 }
 .two{
@@ -170,8 +169,7 @@ body{
     height: 365px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    position: relative;
-    top:60px;
+    bottom: 20px;
 }
 .textbox{
     width: 272px;
