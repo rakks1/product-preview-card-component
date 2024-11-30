@@ -17,12 +17,15 @@ body{
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "one two";
+    position: fixed;
+    top: 150px;
+    bottom: 50px;
 }
 
 .one{
     grid-area:one;
     width: 300px;
-    background-image: url("https://github.com/rakks1/product-preview-card-component-main/blob/main/images/image-product-desktop.jpg?raw=true");
+    background-image: url("./images/image-product-desktop.jpg" );
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px 0px 0px 10px;
@@ -38,7 +41,7 @@ body{
 }
 .textbox{
     position: relative;
-    width: 240px;
+    width: 220px;
     top: 10px;
     left: 35px;
     display: flex;
@@ -82,7 +85,7 @@ body{
     position: relative;
     color:  hsl(158, 36%, 37%);
     position: relative;
-    top:70px;
+    top:60px;
 }
 .txt5{
     font-family:"Montserrat";
@@ -90,7 +93,7 @@ body{
     text-decoration: line-through;
     font-size: 12px;
     position: relative;
-    top: 65px;
+    top: 60px;
     left: 15px;
 }
 .txt6{
@@ -111,7 +114,7 @@ body{
     background-color: hsl(158, 36%, 37%);
     color:hsl(0, 0%, 100%);
     position: relative;
-    top: 100px;
+    top: 75px;
     left: 36px;
 }
 .attribution { 
@@ -151,7 +154,7 @@ body{
 .one{
     width: 325px;
     height: 250px;
-    background-image: url("https://raw.githubusercontent.com/rakks1/product-preview-card-component/refs/heads/main/images/image-product-mobile.jpg");
+    background-image: url("./images/image-product-mobile.jpg" );
     border-radius: 10px 10px 0px 0px;
     position: fixed;
   
